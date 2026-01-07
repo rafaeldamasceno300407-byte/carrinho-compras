@@ -254,3 +254,87 @@ input[type="number"] {
 
   display: none;
 }
+
+/* ===============================
+   RESPONSIVIDADE (MOBILE)
+   =============================== */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+        height: auto;
+    }
+
+    header {
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    header .logo {
+        padding-left: 0;
+        width: 160px;
+    }
+
+    main.container {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        background-position: center;
+    }
+
+    main.container h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    form .input-group {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    form .input-group select,
+    form .input-group input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .hachuras {
+        margin: 3rem 0;
+        width: 100%;
+    }
+
+    .container section {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .container section ul {
+        align-items: center;
+    }
+
+    .container section ul li span {
+        padding-left: 0.5rem;
+    }
+
+    /* Mensagem visual no mobile */
+    .mensagem {
+        right: 50%;
+        transform: translateX(50%);
+        top: 10px;
+    }
+}
