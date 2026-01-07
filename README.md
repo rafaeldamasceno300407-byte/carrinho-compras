@@ -51,7 +51,5 @@ Projeto simples de um **carrinho de compras**, desenvolvido com **HTML, CSS e Ja
 
 - O campo de quantidade aceita apenas valores maiores que zero  
 - O sistema impede a adição de produtos inválidos  
----
 
-## 📂 Estrutura do Projeto
 
